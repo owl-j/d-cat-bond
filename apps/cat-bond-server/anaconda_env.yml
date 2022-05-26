@@ -1,0 +1,9 @@
+name: cat-bond-server
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.9
+  - pip:
+    - --editable .
